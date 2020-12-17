@@ -30,14 +30,19 @@ class Sculptor {
       float b; /*!< O dado b do tipo float representa a cor azul atual que será aplicada ao voxel. */
       float a; /*!< O dado a do tipo float representa a transparência atual que será aplicada ao voxel. */
     public:
+       /*! \brief Construtor da classe*/
       Sculptor(int _nx,int _ny,int _nz);
+       /*! \brief Destrutor da classe*/
       ~Sculptor();
       void setColor(float r, float g, float b, float alpha); /*!< Função para adicionar cor ao Voxel. */
       void putVoxel(int x, int y, int z); /*!< Função para ativar o Voxel atual. */
       void cutVoxel(int x, int y, int z); /*!< Função para desativar o Voxel atual. */
       void writeOFF(char* filename); /*!< Função para criar um arquivo com os dados da escultura. */
+      /*! \brief Esse método retorna a dimensão x da matriz*/
       int getNx();
+      /*! \brief Esse método retorna a dimensão y da matriz*/
       int getNy();
+      /*! \brief Esse método retorna a dimensão z da matriz*/
       int getNz();
     };
 
