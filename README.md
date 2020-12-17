@@ -1,5 +1,5 @@
 # Projeto-Escultor-Classes-Abstratas
 
-##Integrantes
+## Integrantes
 * Gustavo Jerônimo Moura de França
 * Maria Jamilli Lemos de Macêdo
